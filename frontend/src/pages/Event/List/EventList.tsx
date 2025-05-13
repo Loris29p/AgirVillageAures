@@ -32,7 +32,7 @@ const EventList: React.FC = () => {
             const data = await getAllEvents();
             setEvents(data);
         } catch (error) {
-            console.error("There was an error fetching the events", error);
+            console.error("There was an error fetching the events2", error);
         }
     };
 
