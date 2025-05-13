@@ -5,3 +5,4 @@ backend/uploads
 # Ignorer les fichiers package-lock.json
 package-lock.json
 */package-lock.json
+.DS_Store
