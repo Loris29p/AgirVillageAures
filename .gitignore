@@ -1,0 +1,7 @@
+node_modules/
+backend/.env
+frontend/.env
+backend/uploads
+# Ignorer les fichiers package-lock.json
+package-lock.json
+*/package-lock.json
