@@ -17,7 +17,8 @@ jobs:
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan -H 82.25.119.112 >> ~/.ssh/known_hosts
 
-        ssh root@82.25.119.112 << 'EOF'
+        ssh -o StrictHostKeyChecking=no root@82.25.119.112 << 'EOF'
+          whoami
           cd /home/EventCulture
           git pull origin main
           cd frontend && npm install && npm run build
